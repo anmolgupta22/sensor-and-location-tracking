@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/data_show"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/mapView">
+
+    <TextView
+        android:id="@+id/latitude_tv"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude: " />
+
+    <TextView
+        android:id="@+id/longitude_tv"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude: " />
+
+    <TextView
+        android:id="@+id/altitude_tv"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altitude: " />
+
+    <TextView
+        android:id="@+id/velocity_tv"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Velocity: " />
+
+    <TextView
+        android:id="@+id/accelerometer_tv"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Accelerometer: " />
+
+    <TextView
+        android:id="@+id/magnetometer_tv"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magnetometer: " />
+
+    <TextView
+        android:id="@+id/gyroscope_tv"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope: " />
+
+</LinearLayout>
